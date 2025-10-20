@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memoona Tahira - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fff;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 1.2em;
+            color: #34495e;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 0.95em;
+        }
+        
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            font-size: 1.6em;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        
+        .summary {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        
+        .experience-item, .education-item, .project-item {
+            margin-bottom: 20px;
+        }
+        
+        h3 {
+            font-size: 1.2em;
+            color: #34495e;
+            margin-bottom: 5px;
+        }
+        
+        .meta {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .skill-category h4 {
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .skill-tag {
+            background: #3498db;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+        
+        .project-link {
+            color: #3498db;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+        
+        .project-link:hover {
+            text-decoration: underline;
+        }
+        
+        @media print {
+            body {
+                padding: 20px;
+            }
+            .header {
+                border-bottom: 2px solid #2c3e50;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Memoona Tahira</h1>
+        <div class="title">Full Stack Developer | Frontend Developer | Software Tester</div>
+        <div class="contact-info">
+            <span>📧 <a href="mailto:memoona.tahira@gmail.com">memoona.tahira@gmail.com</a></span>
+            <span>📱 +46 707 28 26 09</span>
+            <span>📍 Stockholm, Sweden</span>
+            <span>💻 <a href="https://github.com/memoona-tahira" target="_blank">GitHub</a></span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p class="summary">
+            Full Stack Developer and Software Quality Assurance professional with expertise in building web applications 
+            using React, Angular, Laravel, and Node.js. Currently studying at Chas Academy with a strong foundation in 
+            Computer Science (M.Sc.) and professional training in Software Testing. Combines technical development skills 
+            with a quality-focused mindset, bringing both coding expertise and testing best practices to every project. 
+            Experienced in Agile methodologies and passionate about creating user-friendly, reliable applications.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Frontend Development</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Angular</span>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h4>Backend Development</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Express</span>
+                    <span class="skill-tag">Laravel</span>
+                    <span class="skill-tag">PHP</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h4>Databases</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">MariaDB</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h4>Tools & Testing</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">Git/GitHub</span>
+                    <span class="skill-tag">Selenium</span>
+                    <span class="skill-tag">Postman</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">IntelliJ</span>
+                    <span class="skill-tag">Docker</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Key Projects</h2>
+        
+        <div class="project-item">
+            <h3>React + Node Full Stack Application</h3>
+            <div class="meta">Team Project | React, Node.js, MongoDB, OAuth</div>
+            <ul>
+                <li>Developed full-stack application with OAuth authentication and external API integration</li>
+                <li>Built user-specific Cookbook collection management system</li>
+                <li>Deployed on Render with continuous integration</li>
+            </ul>
+            <a href="https://u09-frontend.onrender.com" class="project-link" target="_blank">Live Demo</a> | 
+            <a href="https://github.com/chas-academy/u09-business-project-teammt" class="project-link" target="_blank">GitHub</a>
+        </div>
+
+        <div class="project-item">
+            <h3>IMDb Clone</h3>
+            <div class="meta">Laravel, MySQL</div>
+            <ul>
+                <li>Created full-featured movie database clone with genre management and filtering</li>
+                <li>Implemented user authentication and authorization</li>
+                <li>Developed RESTful API endpoints for movie data management</li>
+            </ul>
+            <a href="https://github.com/chas-academy/u04-imdb-klon-plottwisters" class="project-link" target="_blank">GitHub</a>
+        </div>
+
+        <div class="project-item">
+            <h3>Books & Authors REST API</h3>
+            <div class="meta">Node.js, Express, MongoDB</div>
+            <ul>
+                <li>Built RESTful API with complete CRUD functionality</li>
+                <li>Created comprehensive API documentation</li>
+                <li>Implemented data validation and error handling</li>
+            </ul>
+            <a href="https://github.com/memoona-tahira/book-collection-api" class="project-link" target="_blank">GitHub</a>
+        </div>
+
+        <div class="project-item">
+            <h3>Järfällahus Information Platform</h3>
+            <div class="meta">CMS Platform</div>
+            <ul>
+                <li>Developed information and CMS platform adaptable for B2B themes</li>
+                <li>Created flexible content management system with customizable interface</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        
+        <div class="education-item">
+            <h3>OpenSource Fullstack Webbutvecklare</h3>
+            <div class="meta">Chas Academy, Stockholm | September 2024 - Ongoing</div>
+            <p>Comprehensive full-stack web development program covering modern frameworks and technologies</p>
+        </div>
+
+        <div class="education-item">
+            <h3>Mjukvarutestare (Software Tester)</h3>
+            <div class="meta">Teknikhögskolan, Stockholm | September 2019 - February 2021</div>
+            <p>Professional training in manual and automated software testing, Agile methodologies (Scrum, Kanban, XP, Lean)</p>
+        </div>
+
+        <div class="education-item">
+            <h3>Master of Science in Computer Science</h3>
+            <div class="meta">Lahore College for Women University | February 2007 - May 2009</div>
+        </div>
+
+        <div class="education-item">
+            <h3>Bachelor of Science</h3>
+            <div class="meta">Allama Iqbal Open University | January 2000 - December 2004</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Additional Training</h2>
+        <ul>
+            <li><strong>Intensivkurs för Testledare</strong> - Expleo (January 2020)</li>
+            <li><strong>Svenska som andraspråk 1, 2 & 3</strong> - Folkuniversitetet (January 2019 - August 2019)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Professional Competencies</h2>
+        <ul>
+            <li>Agile Software Development (Scrum, Kanban, XP, Lean)</li>
+            <li>Technical Specification Analysis</li>
+            <li>System & Unit Testing</li>
+            <li>REST API Design and Development</li>
+            <li>Responsive Web Design</li>
+            <li>Version Control (Git/GitHub)</li>
+        </ul>
+    </div>
+</body>
+</html>
