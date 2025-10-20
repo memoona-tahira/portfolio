@@ -19,7 +19,7 @@ function Projects() {
     {
       title: "Järfällahus Information Platform",
       description: "Information and CMS platform adaptable for B2B themes. Features content management and customizable interface.",
-      link: "#", // Add your actual link here
+      link: "#", 
     },
   ];
 

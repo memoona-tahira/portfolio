@@ -33,7 +33,7 @@ function Contact() {
           <span className="contact-icon">💼</span>
           <div className="contact-details">
             <strong>LinkedIn:</strong>
-            <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/memoona-tahira-a325411bb" target="_blank" rel="noopener noreferrer">
               Connect with me
             </a>
           </div>
